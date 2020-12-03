@@ -6,6 +6,7 @@
       <change beforePath="$PROJECT_DIR$/car_manager.py" beforeDir="false" afterPath="$PROJECT_DIR$/car_manager.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/player.py" beforeDir="false" afterPath="$PROJECT_DIR$/player.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scoreboard.py" beforeDir="false" afterPath="$PROJECT_DIR$/scoreboard.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,18 +66,26 @@
       <option name="project" value="LOCAL" />
       <updated>1607006153781</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="added - detection when the turtle collide with car&#10;      - starting from beginning when crossing the other side&#10;      - speed up">
+      <created>1607028281474</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1607028281474</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="created and get moved the cars" />
-    <option name="LAST_COMMIT_MESSAGE" value="created and get moved the cars" />
+    <MESSAGE value="added - detection when the turtle collide with car&#10;      - starting from beginning when crossing the other side&#10;      - speed up" />
+    <option name="LAST_COMMIT_MESSAGE" value="added - detection when the turtle collide with car&#10;      - starting from beginning when crossing the other side&#10;      - speed up" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="414" y="175" width="1092" height="786" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1607001269670">
+    <state x="414" y="175" width="1092" height="786" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1607030843705">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="414" y="175" width="1092" height="786" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040/1920.0.1280.984@0.0.1920.1040" timestamp="1607001269670" />
+    <state x="414" y="175" width="1092" height="786" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040/1920.0.1280.984@0.0.1920.1040" timestamp="1607030843705" />
     <state x="740" y="261" key="FileChooserDialogImpl" timestamp="1607001733811">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -89,45 +98,50 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="761" y="225" key="Github.UntrackedFilesDialog/0.0.1920.1040/1920.0.1280.984@0.0.1920.1040" timestamp="1607001772893" />
-    <state width="913" height="282" key="GridCell.Tab.0.bottom" timestamp="1607027602082">
+    <state width="1899" height="348" key="GridCell.Tab.0.bottom" timestamp="1607033391986">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="913" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1280.984@0.0.1920.1040" timestamp="1607027602082" />
+    <state width="1899" height="348" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1280.984@0.0.1920.1040" timestamp="1607033391986" />
     <state width="1899" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1607007411813" />
-    <state width="913" height="282" key="GridCell.Tab.0.center" timestamp="1607027602081">
+    <state width="1899" height="348" key="GridCell.Tab.0.center" timestamp="1607033391986">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="913" height="282" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1280.984@0.0.1920.1040" timestamp="1607027602081" />
+    <state width="1899" height="348" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1280.984@0.0.1920.1040" timestamp="1607033391986" />
     <state width="1899" height="282" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1607007411813" />
-    <state width="913" height="282" key="GridCell.Tab.0.left" timestamp="1607027602081">
+    <state width="1899" height="348" key="GridCell.Tab.0.left" timestamp="1607033391986">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="913" height="282" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1280.984@0.0.1920.1040" timestamp="1607027602081" />
+    <state width="1899" height="348" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1280.984@0.0.1920.1040" timestamp="1607033391986" />
     <state width="1899" height="282" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1607007411813" />
-    <state width="913" height="282" key="GridCell.Tab.0.right" timestamp="1607027602082">
+    <state width="1899" height="348" key="GridCell.Tab.0.right" timestamp="1607033391986">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="913" height="282" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1280.984@0.0.1920.1040" timestamp="1607027602082" />
+    <state width="1899" height="348" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1280.984@0.0.1920.1040" timestamp="1607033391986" />
     <state width="1899" height="282" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1607007411813" />
-    <state width="1899" height="348" key="GridCell.Tab.1.bottom" timestamp="1607003875436">
+    <state width="1899" height="348" key="GridCell.Tab.1.bottom" timestamp="1607033391986">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
+    <state width="1899" height="348" key="GridCell.Tab.1.bottom/0.0.1920.1040/1920.0.1280.984@0.0.1920.1040" timestamp="1607033391986" />
     <state width="1899" height="348" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1607003875436" />
-    <state width="1899" height="348" key="GridCell.Tab.1.center" timestamp="1607003875436">
+    <state width="1899" height="348" key="GridCell.Tab.1.center" timestamp="1607033391986">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
+    <state width="1899" height="348" key="GridCell.Tab.1.center/0.0.1920.1040/1920.0.1280.984@0.0.1920.1040" timestamp="1607033391986" />
     <state width="1899" height="348" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1607003875436" />
-    <state width="1899" height="348" key="GridCell.Tab.1.left" timestamp="1607003875436">
+    <state width="1899" height="348" key="GridCell.Tab.1.left" timestamp="1607033391986">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
+    <state width="1899" height="348" key="GridCell.Tab.1.left/0.0.1920.1040/1920.0.1280.984@0.0.1920.1040" timestamp="1607033391986" />
     <state width="1899" height="348" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1607003875436" />
-    <state width="1899" height="348" key="GridCell.Tab.1.right" timestamp="1607003875436">
+    <state width="1899" height="348" key="GridCell.Tab.1.right" timestamp="1607033391986">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
+    <state width="1899" height="348" key="GridCell.Tab.1.right/0.0.1920.1040/1920.0.1280.984@0.0.1920.1040" timestamp="1607033391986" />
     <state width="1899" height="348" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1607003875436" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1607006164091">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1607028288515">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1280.984@0.0.1920.1040" timestamp="1607028288515" />
     <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1607006164091" />
   </component>
 </project>

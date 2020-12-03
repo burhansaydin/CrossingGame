@@ -18,6 +18,8 @@ class Player(Turtle):
     def move(self):
         self.new_y += 10
         self.goto(0, self.new_y)
+        if self.new_y > FINISH_LINE_Y:
+            self.new_y = -280
 
     def move_down(self):
         self.new_y -= 10
@@ -25,9 +27,10 @@ class Player(Turtle):
 
     def go_to_start(self):
         self.goto(STARTING_POSITION)
+        self.new_y = 280
 
     def is_at_finishline(self):
-        if self.ycor() > FINISH_LINE_Y :
+        if self.ycor() > FINISH_LINE_Y:
             return True
         else:
             return False

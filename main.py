@@ -7,12 +7,13 @@ from scoreboard import Scoreboard
 screen = Screen()
 screen.setup(width=600, height=600)
 screen.tracer(0)
-turtle = Player()
+player = Player()
 car_manager = CarManager()
+scoreboard = Scoreboard()
 
 screen.listen()
-screen.onkey(turtle.move, "Up")
-screen.onkey(turtle.move_down, "Down")
+screen.onkey(player.move, "Up")
+screen.onkey(player.move_down, "Down")
 game_is_on = True
 
 while game_is_on:
@@ -21,12 +22,16 @@ while game_is_on:
     car_manager.create_cars()
     car_manager.move_left()
     for car in car_manager.all_cars:
-        if car.distance(turtle) < 20:
-            game_is_on = False
+        if car.distance(player) < 20:
+            if scoreboard.control():
+                scoreboard.game_on()
+                player.go_to_start()
+            else:
+                game_is_on = False
 
-    if turtle.is_at_finishline():
-        turtle.go_to_start()
+    if player.is_at_finishline():
+        player.go_to_start()
         car_manager.level_up()
-
+        scoreboard.score_up()
 
 screen.exitonclick()
