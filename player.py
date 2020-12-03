@@ -18,3 +18,7 @@ class Player(Turtle):
     def move(self):
         self.new_y += 10
         self.goto(0, self.new_y)
+
+    def move_down(self):
+        self.new_y -= 10
+        self.goto(0, self.new_y)
