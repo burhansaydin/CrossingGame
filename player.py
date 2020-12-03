@@ -11,7 +11,7 @@ class Player(Turtle):
         self.pu()
         self.shape("turtle")
         self.setheading(90)
-        self.goto(STARTING_POSITION)
+        self.go_to_start()
         self.new_y = self.ycor()
         self.new_x = self.xcor()
 
@@ -22,3 +22,12 @@ class Player(Turtle):
     def move_down(self):
         self.new_y -= 10
         self.goto(0, self.new_y)
+
+    def go_to_start(self):
+        self.goto(STARTING_POSITION)
+
+    def is_at_finishline(self):
+        if self.ycor() > FINISH_LINE_Y :
+            return True
+        else:
+            return False
