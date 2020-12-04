@@ -1,12 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="cf1af525-598e-49f1-a6ed-25f106c0c159" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/car_manager.py" beforeDir="false" afterPath="$PROJECT_DIR$/car_manager.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/player.py" beforeDir="false" afterPath="$PROJECT_DIR$/player.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scoreboard.py" beforeDir="false" afterPath="$PROJECT_DIR$/scoreboard.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,13 +88,32 @@
       <option name="project" value="LOCAL" />
       <updated>1607028281474</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="score and 5 right added &#10;organized the screen">
+      <created>1607033954272</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1607033954272</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="created and get moved the cars" />
     <MESSAGE value="added - detection when the turtle collide with car&#10;      - starting from beginning when crossing the other side&#10;      - speed up" />
-    <option name="LAST_COMMIT_MESSAGE" value="added - detection when the turtle collide with car&#10;      - starting from beginning when crossing the other side&#10;      - speed up" />
+    <MESSAGE value="score and 5 right added &#10;organized the screen" />
+    <option name="LAST_COMMIT_MESSAGE" value="score and 5 right added &#10;organized the screen" />
   </component>
   <component name="WindowStateProjectService">
     <state x="414" y="175" width="1092" height="786" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1607030843705">
@@ -98,25 +132,25 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="761" y="225" key="Github.UntrackedFilesDialog/0.0.1920.1040/1920.0.1280.984@0.0.1920.1040" timestamp="1607001772893" />
-    <state width="1899" height="348" key="GridCell.Tab.0.bottom" timestamp="1607033391986">
+    <state width="1899" height="282" key="GridCell.Tab.0.bottom" timestamp="1607101219654">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="348" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1280.984@0.0.1920.1040" timestamp="1607033391986" />
+    <state width="1899" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1280.984@0.0.1920.1040" timestamp="1607101219654" />
     <state width="1899" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1607007411813" />
-    <state width="1899" height="348" key="GridCell.Tab.0.center" timestamp="1607033391986">
+    <state width="1899" height="282" key="GridCell.Tab.0.center" timestamp="1607101219653">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="348" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1280.984@0.0.1920.1040" timestamp="1607033391986" />
+    <state width="1899" height="282" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1280.984@0.0.1920.1040" timestamp="1607101219653" />
     <state width="1899" height="282" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1607007411813" />
-    <state width="1899" height="348" key="GridCell.Tab.0.left" timestamp="1607033391986">
+    <state width="1899" height="282" key="GridCell.Tab.0.left" timestamp="1607101219653">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="348" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1280.984@0.0.1920.1040" timestamp="1607033391986" />
+    <state width="1899" height="282" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1280.984@0.0.1920.1040" timestamp="1607101219653" />
     <state width="1899" height="282" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1607007411813" />
-    <state width="1899" height="348" key="GridCell.Tab.0.right" timestamp="1607033391986">
+    <state width="1899" height="282" key="GridCell.Tab.0.right" timestamp="1607101219653">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="348" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1280.984@0.0.1920.1040" timestamp="1607033391986" />
+    <state width="1899" height="282" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1280.984@0.0.1920.1040" timestamp="1607101219653" />
     <state width="1899" height="282" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1607007411813" />
     <state width="1899" height="348" key="GridCell.Tab.1.bottom" timestamp="1607033391986">
       <screen x="0" y="0" width="1920" height="1040" />
@@ -138,10 +172,10 @@
     </state>
     <state width="1899" height="348" key="GridCell.Tab.1.right/0.0.1920.1040/1920.0.1280.984@0.0.1920.1040" timestamp="1607033391986" />
     <state width="1899" height="348" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1607003875436" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1607028288515">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1607033961085">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1280.984@0.0.1920.1040" timestamp="1607028288515" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1280.984@0.0.1920.1040" timestamp="1607033961085" />
     <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1607006164091" />
   </component>
 </project>
